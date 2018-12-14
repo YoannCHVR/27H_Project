@@ -1,0 +1,143 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    background-image: url('../images/fond_header3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body div.align-center {
+    padding-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    font-family: 'OpenSansRegular', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    font-family: 'OpenSansRegular', sans-serif;
+}
+
+form, .form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.3);
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-family: 'OpenSansRegular', sans-serif;
+}
+
+input, select{
+    padding: 10px 10px;
+    font-family: 'OpenSansRegular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    font-family: 'OpenSansRegular', sans-serif;
+    background: #1e1e1e;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    font-family: 'OpenSansRegular', sans-serif;
+    background: #1e1e1e;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+p,
+.form a {
+    text-align: center;
+    margin: 0;
+    padding: 10px 10px;
+    font-family: 'OpenSansRegular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.form a {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-decoration-style: dotted;
+    display: inline-block;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.bold {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 10px 10px;
+    font-family: 'OpenSansRegular', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+span.alert{
+    background: red;
+    font-size: 12px;
+    padding: 10px 5px;
+    color: #fff;
+    font-family: 'OpenSansRegular', sans-serif;
+    text-transform: uppercase;
+}
